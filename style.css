@@ -1,0 +1,70 @@
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    padding-left: 20px;    
+    justify-content: space-between;
+    border: solid;
+    margin:20px;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+.menu{
+    padding-right: 10px;
+    justify-content: space-between;
+}
+
+a:link{
+    color:maroon;
+}
+
+a:visited{
+    color:maroon;
+}
+
+.games_designed{
+    position: relative;
+}
+
+.games_designed p{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.games_designed:hover p{
+    opacity:1
+}
+
+.item:hover img{
+    opacity:0.5
+}
